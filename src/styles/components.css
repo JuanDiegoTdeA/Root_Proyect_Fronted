@@ -1,0 +1,110 @@
+/* Botones */
+.btn {
+    border: 1px solid var(--border);
+    background: #191e2a;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: all 0.15s ease;
+    font-size: 13px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  .btn:hover {
+    border-color: #34405a;
+    transform: translateY(-1px);
+  }
+  
+  .btn.primary {
+    background: var(--blue);
+    border-color: var(--blue);
+  }
+  
+  .btn.primary:hover {
+    background: #1d4ed8;
+  }
+  
+  .btn.danger {
+    color: #fecaca;
+    border-color: rgba(239, 68, 68, 0.3);
+  }
+  
+  .btn.danger:hover {
+    background: rgba(239, 68, 68, 0.15);
+  }
+  
+  .btn.small {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+  
+  /* Badges / Etiquetas */
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 9px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 650;
+    background: #252b38;
+    color: #cbd5e1;
+  }
+  
+  .badge.blue {
+    background: #172b59;
+    color: #93c5fd;
+  }
+  
+  .badge.green {
+    background: #123522;
+    color: #86efac;
+  }
+  
+  .badge.yellow {
+    background: #3b2a0c;
+    color: #fcd34d;
+  }
+  
+  .badge.red {
+    background: #3a171b;
+    color: #fca5a5;
+  }
+  
+  .badge.purple {
+    background: #281b48;
+    color: #c4b5fd;
+  }
+  
+  /* Campos de Formulario */
+  .field {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+  
+  .field label {
+    font-size: 12px;
+    color: var(--muted);
+  }
+  
+  input, select, textarea {
+    background: #0d111a;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 12px;
+    outline: none;
+    width: 100%;
+  }
+  
+  input:focus, select:focus, textarea:focus {
+    border-color: var(--blue);
+  }
+  
+  textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
